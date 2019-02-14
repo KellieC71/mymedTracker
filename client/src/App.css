@@ -1,0 +1,238 @@
+html, body {
+  height: 100%;
+  color: #61DAFB;
+  background: #2D2D2D;
+}
+
+h1 {
+  margin: 20px 0 15px 0;  
+}
+
+#main {
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+ul>li:hover {
+  background-color: #F5F5F5;
+}
+
+.form-inline .form-control {
+  width: 50%;
+  margin-left: 80px;
+}
+
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+
+.undone {
+  color: #61DAFB;
+}
+
+.icon {
+  margin: 6px 10px 6px 0;
+}
+
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+	background-color: #FFFCF9;
+	color: #352D39;
+}
+
+.controls {
+	margin-bottom: 20px;
+  width: 456px;
+	margin-top: 20px;  
+}
+
+button {
+	background: #FF6978;
+  color: #eee;
+  margin-left: 15px;
+  margin-top: 9px;
+	border-radius: 3px;
+	border: none;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	padding: 7px 14px;	
+	float: left;
+	outline: none;
+	cursor: pointer;
+}
+
+button:hover{
+	background: rgb(255, 73, 91)
+}
+
+
+.bpm {
+  margin-top: 15px;
+	float: right;
+	color: #FF6978;
+  font-weight: bold;
+}
+
+.bpm label {
+	margin: 3px 5px 0 0;
+	float: left;
+}
+
+.bpm input {
+	float: left;
+}
+
+.bpm output {
+	float: left;
+	margin: 3px 0 0 5px;
+}
+
+.row {
+	clear: both;
+}
+
+.meds {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0 3px 3px 0;
+	cursor: pointer;
+	background: #B1EDE8;
+	border-radius: 3px;
+}
+
+.meds{
+  margin-top: 15px;
+	width: 100%;
+	margin-left: 30vh;
+	margin-right: 10vh;
+}
+/* 
+#pad0, #pad4, #pad8, #pad12 {
+  border-left: 2px solid #FF6978;
+}
+
+.pad:hover {
+	background: rgb(100, 237, 232);
+}
+
+.pad.active {
+	background: #6D435A;
+}
+
+.pad.playing {
+	background: #F8F7FF;
+	box-shadow: 0px 0px 20px 3px rgba(255, 105, 120, 0.39);
+}
+
+.pad.active.playing, .pad.active:hover {
+	background: #FF6978;
+} */
+
+p.link a {
+	color: rgb(226, 208, 255);
+}
+
+.selector{
+  float: left;
+  align-items: center;
+  margin-top:18px;
+  margin-right:15px;
+}
+
+.DeleteBtn{
+  float: left;
+}
+.sample_volume{
+  float: left;
+  align-items: center;
+  margin-top:18px;
+  margin-right:15px;
+}
+
+.sample_output{
+  margin-right:4px;
+
+}
+
+.control_button {
+	background: lightblue;
+  color: #eee;
+  margin-left: 15px;
+  margin-top: 9px;
+	border-radius: 3px;
+	border: none;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	padding: 7px 14px;	
+	float: left;
+	outline: none;
+	cursor: pointer;
+}
+
+.login_modal_button {
+	background: #FF6978;
+  color: #eee;
+  margin-top: 9px;
+	border-radius: 3px;
+	border: none;
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	padding: 7px 14px;	
+	outline: none;
+	cursor: pointer;
+	float: left;
+	width: 100px;
+	height: 35px;
+}
+
+.form_email{
+  margin-bottom: 25px;
+}
+.form_password{
+  margin-bottom: 25px;
+}
+
+.label{
+  margin-right: 17px;
+} 
+
+.clearIcon{
+  margin-top: 18px;
+  margin-left: 15px;
+  height: 20px;
+  width: 20px;
+}
+
+.deleteIcon{
+  margin-top: 18px;
+  margin-left: 15px;
+  height: 20px;
+  width: 20px;
+}
+
+
+
+
+
+
+
